@@ -29,7 +29,7 @@ metadata:
    name: mydeployments
 spec:
    replicas: 2
-   selector:     
+   selector:                #Tells controller which pods to watch/belongs to
     matchLabels:
      name: deployment
    template:
